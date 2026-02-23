@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Model/data artifacts
+output/
+*.pt
+*.ckpt
+*.png
+*.csv
+
+# Raw datasets (local only)
+city_data/
+Civic AQI(Aus)/
+Dehi AQI/
+Hong Kong AQI/
+Hyderabad AQI/
+London AQI/
+Los Angeles AQI/
+Tsuen(China)/
+
+# Notebook noise
+.ipynb_checkpoints/
+.DS_Store
